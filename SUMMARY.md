@@ -5,6 +5,7 @@
 
 ## 基础
 
+* [语法基础](ji-chu/yu-fa-ji-chu.md)
 * [面向对象](ji-chu/mian-xiang-dui-xiang.md)
 
 ## Java EE
