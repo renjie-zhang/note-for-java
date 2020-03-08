@@ -163,3 +163,89 @@ public interface Collection<E> extends Iterable<E> {
     }
 ```
 
+### ArrayList
+
+ArrayList是一个实现了List接口的动态数组。ArrayList与Vector除了线程不同步之外，大致相同。开发中也是最经常使用它。它属性如下：
+
+```text
+   /**
+     * 默认容量
+     */
+    private static final int DEFAULT_CAPACITY = 10;
+
+    /**
+     * 空数组常量
+     */
+    private static final Object[] EMPTY_ELEMENTDATA = {};
+
+    /**
+     * 默认空数组常量
+     */
+    private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
+
+    /**
+     * 存放元素的数组，可以看出低层是一个Object
+     */
+    transient Object[] elementData; // non-private to simplify nested class access
+
+    /**
+     * 数组的大小
+     */
+    private int size;
+    
+    /**
+     * 允许数组申请的最大空间，在一些VMs中尝试给申请大容量给数组，会出现
+     * OutOfMemoryError：Requested array size exceeds VM limit
+     */
+    private static final int MAX_ARRAY_SIZE = Integer.MAX_VALUE - 8;
+```
+
+它的构造方法：
+
+```text
+    /**
+     * Constructs an empty list with the specified initial capacity.
+     *
+     * @param  initialCapacity  the initial capacity of the list
+     * @throws IllegalArgumentException if the specified initial capacity
+     *         is negative
+     */
+    public ArrayList(int initialCapacity) {
+        if (initialCapacity > 0) {
+            this.elementData = new Object[initialCapacity];
+        } else if (initialCapacity == 0) {
+            this.elementData = EMPTY_ELEMENTDATA;
+        } else {
+            throw new IllegalArgumentException("Illegal Capacity: "+
+                                               initialCapacity);
+        }
+    }
+
+    /**
+     * Constructs an empty list with an initial capacity of ten.
+     */
+    public ArrayList() {
+        this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
+    }
+
+    /**
+     * Constructs a list containing the elements of the specified
+     * collection, in the order they are returned by the collection's
+     * iterator.
+     *
+     * @param c the collection whose elements are to be placed into this list
+     * @throws NullPointerException if the specified collection is null
+     */
+    public ArrayList(Collection<? extends E> c) {
+        elementData = c.toArray();
+        if ((size = elementData.length) != 0) {
+            // c.toArray might (incorrectly) not return Object[] (see 6260652)
+            if (elementData.getClass() != Object[].class)
+                elementData = Arrays.copyOf(elementData, size, Object[].class);
+        } else {
+            // replace with empty array.
+            this.elementData = EMPTY_ELEMENTDATA;
+        }
+    }
+```
+
