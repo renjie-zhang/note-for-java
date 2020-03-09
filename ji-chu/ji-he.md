@@ -204,16 +204,13 @@ ArrayList是一个实现了List接口的动态数组。ArrayList与Vector除了�
 
 ```text
     /**
-     * Constructs an empty list with the specified initial capacity.
-     *
-     * @param  initialCapacity  the initial capacity of the list
-     * @throws IllegalArgumentException if the specified initial capacity
-     *         is negative
+     * 构造方法
      */
     public ArrayList(int initialCapacity) {
         if (initialCapacity > 0) {
             this.elementData = new Object[initialCapacity];
         } else if (initialCapacity == 0) {
+            //如果传入值为零，则还是按照默认的大小初始化数组
             this.elementData = EMPTY_ELEMENTDATA;
         } else {
             throw new IllegalArgumentException("Illegal Capacity: "+
@@ -222,19 +219,14 @@ ArrayList是一个实现了List接口的动态数组。ArrayList与Vector除了�
     }
 
     /**
-     * Constructs an empty list with an initial capacity of ten.
+     * 构造方法：空数组，默认为10
      */
     public ArrayList() {
         this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
     }
 
     /**
-     * Constructs a list containing the elements of the specified
-     * collection, in the order they are returned by the collection's
-     * iterator.
-     *
-     * @param c the collection whose elements are to be placed into this list
-     * @throws NullPointerException if the specified collection is null
+     * 从特殊的集合中构造一个List
      */
     public ArrayList(Collection<? extends E> c) {
         elementData = c.toArray();
@@ -248,4 +240,6 @@ ArrayList是一个实现了List接口的动态数组。ArrayList与Vector除了�
         }
     }
 ```
+
+总的来说，ArrayList是一个动态数组，它在创建时的大小为0，当初次初始化时，大小为默认为10；每次扩容都是当前数组的1.5倍。与之相似的Vector，基本上的方式实现都是相似的，只是在线程同步上面做了调整，使用synchronized来保证线程安全，另外一个区别就i是多了一个CapacityIncrement属性。ArrayList与Vector的add、get、size在算法复杂度上都是O\(1\)的，remove方法是O\(n\)的。
 
