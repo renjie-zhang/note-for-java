@@ -22,3 +22,7 @@
 
 * [Servlet](java-ee/servlet.md)
 
+## 其他
+
+* [Volatile](qi-ta/volatile.md)
+
