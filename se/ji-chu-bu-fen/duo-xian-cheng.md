@@ -8,5 +8,5 @@
 2. 继承Thread的方式共享数据比较方便，使用static方式，实现Runnable共享数据时，只需要共用同一个Runnable接口的实现
 3. 继承Thread类的方式，在同步锁时，要么选择一个static对象作为锁，要么选择“classname.class”或者当前类的Class对象，实现Runnable接口时，同步锁可以直接锁this对象。
 
-![](../.gitbook/assets/thread.png)
+![](../../.gitbook/assets/thread.png)
 

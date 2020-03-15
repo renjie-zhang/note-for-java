@@ -6,7 +6,7 @@ Java Volatile关键字用于标记一个变量“应当存储在主存中”。�
 
 Java Volatile是保证变量在多线程的修改下，所有线程都有可见性。在多线程的应用中，线程在操作变量时，处于对性能的考虑，每个线程可能会将变量从主存中拷贝到CPU缓存中。对于多个CPU，那么运行在各个CPU上的线程都会进行这样一个拷贝。如下图所示：
 
-![](../.gitbook/assets/java-volatile-1.png)
+![](../../.gitbook/assets/java-volatile-1.png)
 
 ## 完整的Volatile可见性保证
 
