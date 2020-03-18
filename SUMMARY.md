@@ -25,9 +25,11 @@
 
 ## JVM
 
+* [Volatile](jvm/volatile.md)
 * [虚拟机算法与垃圾回收器](jvm/xu-ni-ji-suan-fa-yu-la-ji-hui-shou-qi.md)
-* [类的加载机制](jvm/lei-de-jia-zai-ji-zhi/README.md)
-  * [Volatile](jvm/lei-de-jia-zai-ji-zhi/volatile.md)
+* [类的加载机制](jvm/lei-de-jia-zai-ji-zhi.md)
+* [Java内存模型](jvm/java-nei-cun-mo-xing.md)
+* [垃圾回收算法及垃圾回收器](jvm/la-ji-hui-shou-suan-fa-ji-la-ji-hui-shou-qi.md)
 
 ## Spring-Framework <a id="spring"></a>
 
