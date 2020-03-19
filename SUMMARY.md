@@ -21,7 +21,8 @@
 
 ## Java并发 <a id="juc"></a>
 
-* [JUC](juc/juc.md)
+* [JUC](juc/juc/README.md)
+  * [Lock](juc/juc/lock.md)
 * [Volatile](juc/volatile.md)
 * [Synchronized](juc/synchronized.md)
 
