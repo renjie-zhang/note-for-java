@@ -23,6 +23,7 @@
 
 * [JUC](juc/juc.md)
 * [Volatile](juc/volatile.md)
+* [Synchronized](juc/synchronized.md)
 
 ## JVM
 
