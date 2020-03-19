@@ -19,14 +19,13 @@
   * [Stream](se/ji-chu-bu-fen/stream.md)
   * [Optional](se/ji-chu-bu-fen/optional.md)
 
-## Java并发
+## Java并发 <a id="juc"></a>
 
-* [JUC](java-bing-fa/juc.md)
+* [JUC](juc/juc.md)
+* [Volatile](juc/volatile.md)
 
 ## JVM
 
-* [Volatile](jvm/volatile.md)
-* [虚拟机算法与垃圾回收器](jvm/xu-ni-ji-suan-fa-yu-la-ji-hui-shou-qi.md)
 * [类的加载机制](jvm/lei-de-jia-zai-ji-zhi.md)
 * [Java内存模型](jvm/java-nei-cun-mo-xing.md)
 * [垃圾回收算法及垃圾回收器](jvm/la-ji-hui-shou-suan-fa-ji-la-ji-hui-shou-qi.md)
@@ -38,10 +37,10 @@
 * [Spring Data](spring-data.md)
 * [Spring Cloud](spring-cloud.md)
 
-## Tool
+## SQL && NoSQL <a id="sql"></a>
 
-* [MySQL](tool/mysql.md)
-* [Redis](tool/redis.md)
-* [influxdb](tool/influxdb.md)
-* [RabbitMQ](tool/rabbitmq.md)
+* [MySQL](sql/mysql.md)
+* [MongoDB](sql/mongodb.md)
+* [Redis](sql/redis.md)
+* [influxdb](sql/influxdb.md)
 
