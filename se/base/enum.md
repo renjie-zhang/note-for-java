@@ -2,71 +2,7 @@
 
 ### 枚举
 
-类型的对象是有固定几个时，此时便可以将这种声明为枚举类型。在Java 5之前，枚举类中的final修饰；而在Java 1.5 之后，使用enum关键字。  
-示例：
-
-```text
-public enum Week{
-	MONDAY(1,"星期一"),
-	TUESDAY(2,"星期二"),
-	WEDNESDAY(3,"星期"),
-	THURSDAY(4,"星期四"),
-	FRIDAY(5,"星期五"),
-	SATURDAY(6,"星期六"),
-	SUNDAY(7,"星期日");
-	
-	private int number;
-	private String decription;
-	
-	private Week(int number, String decription) {
-		this.number = number;
-		this.decription = decription;
-	}
-	
-	public static Week getByNumber(int number){
-		switch(number){
-		case 1:
-			return MONDAY;
-		case 2:
-			return TUESDAY;
-		case 3:
-			return WEDNESDAY;
-		case 4:
-			return THURSDAY;
-		case 5:
-			return FRIDAY;
-		case 6:
-			return SATURDAY;
-		case 7:
-			return SUNDAY;
-		default:
-			return null;
-		}
-	}
-
-	public int getNumber() {
-		return number;
-	}
-
-	public void setNumber(int number) {
-		this.number = number;
-	}
-
-	public String getDecription() {
-		return decription;
-	}
-
-	public void setDecription(String decription) {
-		this.decription = decription;
-	}
-
-	@Override
-	public String toString() {
-		return super.toString()+"(" + number + ","+ decription + ")";
-	}
-	
-}
-```
+类型的对象是有固定几个时，此时便可以将这种声明为枚举类型。在Java 5之前，枚举类中的final修饰；而在Java 1.5 之后，使用enum关键字。
 
 注意:
 

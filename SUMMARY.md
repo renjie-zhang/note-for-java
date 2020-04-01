@@ -31,6 +31,7 @@
 * [类的加载机制](jvm/lei-de-jia-zai-ji-zhi.md)
 * [Java内存模型](jvm/java-nei-cun-mo-xing.md)
 * [垃圾回收算法及垃圾回收器](jvm/la-ji-hui-shou-suan-fa-ji-la-ji-hui-shou-qi.md)
+* [虚拟机栈](jvm/stack.md)
 
 ## Spring-Framework <a id="spring"></a>
 
@@ -41,7 +42,7 @@
 
 ## SQL && NoSQL <a id="sql"></a>
 
-* [MySQL](sql/mysql.md)
+* [MySQL-InnoDB引擎](sql/mysql.md)
 * [MongoDB](sql/mongodb.md)
 * [Redis](sql/redis.md)
 * [influxdb](sql/influxdb.md)
