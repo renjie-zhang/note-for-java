@@ -6,7 +6,7 @@
 
 * [基础部分](se/base/README.md)
   * [面向对象](se/base/object.md)
-  * [枚举与注解](se/base/enum.md)
+  * [枚举](se/base/enum.md)
   * [泛型](se/base/fan-xing.md)
   * [集合](se/base/collect.md)
   * [异常](se/base/exception.md)
