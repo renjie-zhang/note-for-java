@@ -19,14 +19,14 @@
   * [Stream](se/base/stream.md)
   * [Optional](se/base/optional.md)
 
-## Java并发 <a id="juc"></a>
+## Java多线程 <a id="juc"></a>
 
 * [JUC](juc/juc/README.md)
   * [Lock](juc/juc/lock.md)
 * [Volatile](juc/volatile.md)
 * [Synchronized](juc/synchronized.md)
 
-## JVM
+## Java虚拟机 <a id="jvm"></a>
 
 * [类的加载机制](jvm/lei-de-jia-zai-ji-zhi.md)
 * [Java内存模型](jvm/java-nei-cun-mo-xing.md)
