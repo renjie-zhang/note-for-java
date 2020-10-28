@@ -21,8 +21,7 @@
 
 ## Java多线程 <a id="juc"></a>
 
-* [JUC](juc/juc/README.md)
-  * [Lock](juc/juc/lock.md)
+* [Lock](juc/lock.md)
 * [Volatile](juc/volatile.md)
 * [Synchronized](juc/synchronized.md)
 
