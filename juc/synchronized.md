@@ -1,4 +1,0 @@
-# Synchronized
-
-todo
-

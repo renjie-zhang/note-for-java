@@ -21,9 +21,7 @@
 
 ## Java多线程 <a id="juc"></a>
 
-* [Lock](juc/lock.md)
 * [Volatile](juc/volatile.md)
-* [Synchronized](juc/synchronized.md)
 
 ## Java虚拟机 <a id="jvm"></a>
 
