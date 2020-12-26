@@ -1,3 +1,7 @@
+---
+description: Only For Note
+---
+
 # Note-For-Java
 
 ![](.gitbook/assets/java.png)

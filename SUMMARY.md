@@ -4,9 +4,9 @@
 
 ## Java-SE <a id="se"></a>
 
+* [集合](se/collect.md)
 * [基础部分](se/base/README.md)
   * [常用API](se/base/common-api.md)
-  * [集合](se/base/collect.md)
   * [面向对象](se/base/object.md)
   * [枚举](se/base/enum.md)
   * [泛型](se/base/fan-xing.md)
