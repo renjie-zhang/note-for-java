@@ -2,35 +2,25 @@
 
 * [Note-For-Java](README.md)
 
-## Java-SE <a id="se"></a>
+## Java-Basic <a id="basic"></a>
 
-* [集合](se/collect.md)
-* [基础部分](se/base/README.md)
-  * [常用API](se/base/common-api.md)
-  * [面向对象](se/base/object.md)
-  * [枚举](se/base/enum.md)
-  * [泛型](se/base/fan-xing.md)
-  * [异常](se/base/exception.md)
-  * [IO](se/base/io.md)
-  * [多线程](se/base/thread.md)
-  * [网络编程](se/base/net.md)
-  * [反射](se/base/fan-she.md)
-  * [Lambda表达式](se/base/lambda.md)
-  * [Stream](se/base/stream.md)
-  * [Optional](se/base/optional.md)
-
-## Java多线程 <a id="juc"></a>
-
-* [Volatile](juc/volatile.md)
-
-## Java虚拟机 <a id="jvm"></a>
-
-* [类的加载机制](jvm/lei-de-jia-zai-ji-zhi.md)
-* [Java内存模型](jvm/java-nei-cun-mo-xing.md)
-* [垃圾回收算法及垃圾回收器](jvm/la-ji-hui-shou-suan-fa-ji-la-ji-hui-shou-qi.md)
-* [虚拟机栈](jvm/stack.md)
-
----
-
-* [JAVA NIO](nio.md)
+* [集合](basic/collect.md)
+* [Lambda](basic/lambda/README.md)
+  * [Optional](basic/lambda/optional.md)
+  * [Stream](basic/lambda/stream.md)
+  * [Lambda表达式](basic/lambda/lambda.md)
+* [并发](basic/concurrent/README.md)
+  * [多线程](basic/concurrent/thread.md)
+  * [Volatile](basic/concurrent/volatile.md)
+* [Java元编程](basic/java-yuan-bian-cheng/README.md)
+  * [反射](basic/java-yuan-bian-cheng/reflect.md)
+* [Java I/O](basic/java-i-o/README.md)
+  * [IO Basic](basic/java-i-o/io-basic.md)
+* [Java虚拟机](basic/jvm.md)
+* [其他](basic/other/README.md)
+  * [常用API](basic/other/common-api.md)
+  * [面向对象](basic/other/object.md)
+  * [枚举](basic/other/enum.md)
+  * [异常](basic/other/exception.md)
+  * [网络编程](basic/other/net.md)
 
